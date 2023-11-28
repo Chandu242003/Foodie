@@ -22,7 +22,7 @@ const UserSchema = new mongoose.Schema({
 });
 
 
-const User = mongoose.model('details', UserSchema);
+const User = mongoose.model('customerdetails', UserSchema);
 
 app.use(express.json());
 app.use(cors());
